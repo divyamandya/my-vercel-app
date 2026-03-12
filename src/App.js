@@ -1,4 +1,4 @@
-import WorldMonitorMap from "./components/WorldMonitorMap";
+import WorldMonitorMap from "./WorldMonitorMap";
 
 function App() {
   return (
