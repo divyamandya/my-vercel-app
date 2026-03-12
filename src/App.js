@@ -1,18 +1,11 @@
-import { useEffect, useState } from "react";
+import WorldMonitorMap from "./components/WorldMonitorMap";
 
 function App() {
-  const [message, setMessage] = useState("");
-
-  useEffect(() => {
-    fetch("/api/hello")
-      .then((res) => res.json())
-      .then((data) => setMessage(data.message));
-  }, []);
-
   return (
-    <div style={{ textAlign: "center", marginTop: "100px" }}>
-      <h1>React + Vercel API</h1>
-      <p>{message}</p>
+    <div>
+      <h1>Supply Chain Risk Monitor</h1>
+
+      <WorldMonitorMap />
     </div>
   );
 }
