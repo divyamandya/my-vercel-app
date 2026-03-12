@@ -2,7 +2,7 @@ function App() {
   return (
     <div style={{ textAlign: "center", marginTop: "100px" }}>
       <h1>Hello from React 🚀</h1>
-      <p>Deployed using Vercel</p>
+      <p>Updated the content</p>
     </div>
   );
 }
